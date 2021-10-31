@@ -1,0 +1,24 @@
+.wrap {display: flex; flex-direction: column; align-items: center; width: 100vw; height: 100vh; background-color: beige; box-sizing: border-box}
+
+header{display: flex; padding: 5vh 1vw; width: 100%; justify-content: space-between; box-sizing: border-box}
+header .left{display: flex}
+header .left button{}
+header .left h1{}
+header .right{display: flex}
+header .right>a{display:flex; align-items: center; margin: 0 2px; padding: 0 3px; background-color: black; color: #fff; text-align: center}
+
+main{border-radius: 5% 5% 0 0; flex: 1; background-color: #fff}
+main table{display: flex; height: 100%; flex-direction: column}
+main table .holiday{color:crimson}
+main table .sat{color:cornflowerblue}
+main table .otherMon{opacity: 20%;}
+main table .select{background-color: cadetblue; color : #fff}
+main table thead{}
+main table thead tr{display: flex; width: 100vw; padding: 1vh 1vw ; text-align: left; box-sizing: border-box}
+main table thead tr th{flex:1}
+main table tbody{flex:1; display: flex; flex-direction: column}
+main table tbody tr{flex: 1; display: flex; width: 100vw; padding: 1vh 1vw; text-align: left; box-sizing: border-box}
+main table tbody tr td{flex:1}
+
+footer {position: absolute; right: 1vw; bottom: 1vh}
+footer button{width: 75px; height: 75px; border: 0; border-radius: 100%; background-color:cadetblue}
